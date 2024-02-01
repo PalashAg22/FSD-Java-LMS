@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.hexaware.lms.entities.Admin;
 
 @Repository
-public interface AdminRepository extends JpaRepository<Admin,Integer>{
+public interface AdminRepository extends JpaRepository<Admin,Long>{
 	
 }
